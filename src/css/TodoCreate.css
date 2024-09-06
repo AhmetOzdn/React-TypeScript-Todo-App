@@ -1,0 +1,32 @@
+
+.todoCreateContainer{
+    margin: 40px 0px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  
+}
+
+
+.todoCreate{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightseagreen;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.todoCreateButton{
+    border: none;
+    padding: 10px 15px;
+    background-color: lightblue;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.todoCreateButton:hover{
+    color:lightblue;
+    background-color: black;
+}

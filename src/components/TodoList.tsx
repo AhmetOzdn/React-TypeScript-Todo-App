@@ -1,0 +1,18 @@
+import { useSelector } from "react-redux"
+import Todo from "./Todo"
+import { RootState } from "../redux/store"
+import { TodoType } from "../types/Types"
+
+function TodoList() {
+    const {todos} = useSelector((state:RootState) => state.todo)
+  return (
+    <div>
+       {todos && todos.map((todo:TodoType) => (
+        <Todo key={todo.id} todo={todo}></Todo>
+       ))}
+      
+    </div>
+  )
+}
+
+export default TodoList

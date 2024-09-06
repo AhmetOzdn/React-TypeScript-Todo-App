@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightseagreen;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.todoInput{
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid lightseagreen;
+    outline: none;
+}
+
+.icon{
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-right: 5px;
+}
+
+.icon:hover{
+    color: lightseagreen;
+
+}
